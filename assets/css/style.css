@@ -1,0 +1,192 @@
+body {  
+  background-image: url(../images/light-veneer.png); 
+}
+
+#mainimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+#locationbox{
+  background: white;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 1rem;
+  color:red;
+  text-align: center;
+  margin-left: 220px;
+  margin-right: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px solid red;  
+}
+.headerh1{
+  width: 33%;
+}
+ 
+#ourstoryparagraph{
+  background: white;
+  color: black;
+  margin-left: 220px;
+  margin-right: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid blue;
+  overflow: auto; 
+}
+
+#locationheaders{
+font-size: 2rem;
+font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+color: black;
+}
+
+#mainheader{
+  background: red;
+}
+
+#menupictures{
+  background: white;
+  border: 30px solid red;
+  padding: 10px;
+  margin-left: 220px;
+  margin-right: 220px;
+  overflow: auto; 
+}
+#menupic1{
+  float: left;
+  border: 3px solid blue;
+  margin: 20px;  
+}
+
+#menupic2{
+  float: left;
+  border: 3px solid yellow;
+  margin: 50px;
+}
+#menupic3{
+  float: left;
+  border: 3px solid red;
+  margin: 50px; 
+}
+#menupic4{
+  float: left;
+  border: 3px solid green;
+  margin-left: 250px; 
+  
+}
+#menupic5{
+  float:left;
+  border: 3px solid black;
+  margin: 50px; 
+  
+}
+#menutitle{
+  font-size: 2rem;
+  color: red;
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  padding-left: 20px;
+}
+#headertitle{
+  float: left;
+  width:20%;
+  background: blue;
+  font-size: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#headerimage{
+  float: left;
+  width:30%;
+}
+
+#tabs{
+  float: left;
+  width: 50%;
+
+}
+
+#headerbox{
+  background: blue;
+  color:yellow;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.title{
+  float:left;
+  font-size: 3rem;
+  border-right: 30px;
+  font-family: Copperplate,Copperplate Gothic Light,fantasy;
+  padding-right: 400px;
+  padding-left: 20px;
+}
+
+.nav{
+  display:inline;
+  float:right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+li{
+  list-style:none;
+  display:inline;
+  font-size: 1rem;
+  padding: 1px;
+  border: 5px solid red;
+  background-color: yellow;
+  font-family: Papyrus,fantasy;
+  
+}
+
+.formcontact{
+font-size: 1.5rem;
+font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+padding-bottom: 20px;
+padding-top: 20px;
+text-align: center;
+width: 100%;
+background: yellow;
+box-sizing: border-box;
+width: 100%;
+display: block;
+}
+a{
+  text-decoration-line: none;
+}
+.contactbox{
+  background: blue;
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  font-size: 1.5rem;
+  color:red;
+  text-align: left;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-bottom: 20px;
+}
+
+.submitbutton{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.cboxheader{
+padding: 20px;
+}
+
+#fullname{
+width: 80%;
+height: 50px;
+font-size: 1rem;
+}
+
+#number{
+width: 80%;
+height: 50px;
+font-size: 1rem;
+}
+
+#subject{
+width: 80%;
+font-size: 1rem;
+}

@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact</title>
+    <title>Location</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     <script src="main.js"></script>
+    
 </head>
 <body>
         <div id=headerbox>
@@ -29,41 +30,50 @@
                         <a class="nav-link Contact" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <div>
+                <div id=logopic>
                     <a href="index.html">
                         <img src="assets/images/Logo.jpg" alt="logopicture" style="width:50px;height:50px;">
                     </a>
                 </div>
             </div>
-    <div class="contactbox">
-        <div class="cboxheader">
-        <h2>Want to Contact us?<br>
-            Please leave your name, number, and message.
-        </h2>
+    <div id=locationbox>
+    <h1 id=locationheaders>Location</h1>
+
+    <div>
+        <img src="assets/images/Screen Shot 2018-11-18 at 2.54.49 PM.png" alt="Location" style="width:500px;height:auto;"><br>    
+        <a href="https://www.google.com/maps/place/La+Casa+De+Los+Antojitos/@40.7495812,-73.8870563,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25fa8e95e8fd3:0xa5ea185ffe20c70a!8m2!3d40.7495812!4d-73.8848676" target="_blank">Google Map Link
+        </a>
+    </div><br>
+
+    <div>
+        <div id=locationheaders>
+        <h2>Jackson Heights</h2><br>
         </div>
-    <form action="POST">
-    <div class="formcontact">   
-        <label for="fullname">Full Name:</label><br>
-        <br>
-        <input type="text" id="fullname" name="fullname" placeholder="John Smith"><br>
-    
-    </div> 
-    <div class="formcontact">
-    <label for="Number">Number:</label><br>
-    <br>
-    <input type="text" id="Number" name="Number" placeholder="(123)432-1234"><br>
+        <p>
+            81-08 37th Ave<br>
+            <br>
+            Jackson Heights, NY 11372
+        </p><br>
+
+        <h3 id=locationheaders>Hours</h3><br>
+
+        <p>
+            Everyday 6:00 am - 10:00 pm
+        </p><br>
+
+        <h4 id=locationheaders>Near Train Stations</h4><br>
+
+        <p>
+            82 St. Jackson Heights<br>
+            <br>
+            74 St. Broadway<br>
+            <br>
+            Jackson Heights-Roosevelt Avenue
+        </p><br>
+
+        <h4 id=locationheaders>Phone Number</h4> <br>
+            (718) 779-2949</p><br>   
     </div>
-    <div class="formcontact">
-        <label for="subject">Message:</label><br>
-        <br>
-        <textarea id="subject" name="subject" placeholder="Hi!...." style="height:100px"></textarea>
     </div>
-    <div class=submitbutton>
-    <input type="submit" value="Submit">
-    </div>
-    </form>
-    </div>
-</div>
-</div> 
 </body>
 </html>
