@@ -1,5 +1,5 @@
 body {  
-  background-image: url(../images/light-veneer.png); 
+  background-image: url(../images/halftone-yellow.png); 
 }
 
 #mainimage{
@@ -9,7 +9,7 @@ body {
 }
 
 #locationbox{
-  background: white;
+  background:white;
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 1rem;
   color:red;
@@ -18,12 +18,10 @@ body {
   margin-right: 220px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 5px solid red;  
+  border: 5px ridge red;
+  border-radius: 25px;  
 }
-.headerh1{
-  width: 33%;
-}
- 
+
 #ourstoryparagraph{
   background: white;
   color: black;
@@ -33,12 +31,56 @@ body {
   padding-bottom: 10px;
   border: 3px solid blue;
   overflow: auto; 
+  border-radius: 25px; 
 }
 
 #locationheaders{
 font-size: 2rem;
-font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+font-family: "Apple Chancery"; 
 color: black;
+font-weight: 900;
+}
+
+.trainseven{
+  background-color: #B933AD; 
+  color: #FFFFFF;
+  border-radius: 50%;
+	width: 200px;
+  height: 100px;
+  padding: 5px;
+}
+.trainE{
+  background-color: #2850AD; 
+  color: #FFFFFF;
+  border-radius: 50%;
+	width: 200px;
+  height: 100px;
+  padding: 5px;
+}
+
+.trainF{
+  background-color: #FF6319; 
+  color: #FFFFFF;
+  border-radius: 50%;
+	width: 200px;
+  height: 100px;
+  padding: 5px;
+}
+.trainM{
+  background-color: #FF6319; 
+  color: #FFFFFF;
+  border-radius: 50%;
+	width: 200px;
+  height: 100px;
+  padding: 5px;
+}
+.trainR{
+  background-color: #FCCC0A; 
+  color: #000000;
+  border-radius: 50%;
+	width: 200px;
+  height: 100px;
+  padding: 5px;
 }
 
 #mainheader{
@@ -47,44 +89,45 @@ color: black;
 
 #menupictures{
   background: white;
-  border: 30px solid red;
+  border: 10px solid red;
   padding: 10px;
   margin-left: 220px;
   margin-right: 220px;
   overflow: auto; 
+  border-radius: 25px;
 }
 #menupic1{
   float: left;
-  border: 3px solid blue;
-  margin: 20px;  
+  padding-left: 160px;
 }
 
 #menupic2{
   float: left;
-  border: 3px solid yellow;
-  margin: 50px;
+  padding-left: 200px;
+  padding-top: 55px;
 }
 #menupic3{
   float: left;
-  border: 3px solid red;
-  margin: 50px; 
+  padding-left: 160px; 
+  padding-top: 30px;
 }
 #menupic4{
   float: left;
-  border: 3px solid green;
-  margin-left: 250px; 
+  padding-left: 200px; 
+  padding-top: 25px;
   
 }
 #menupic5{
   float:left;
-  border: 3px solid black;
-  margin: 50px; 
+  padding-left: 160px; 
+  padding-top: 30px;
   
 }
 #menutitle{
   font-size: 2rem;
   color: red;
-  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  font-weight: 900;
+  font-family: "Apple Chancery"; 
   padding-left: 20px;
 }
 #headertitle{
@@ -116,8 +159,8 @@ color: black;
   float:left;
   font-size: 3rem;
   border-right: 30px;
-  font-family: Copperplate,Copperplate Gothic Light,fantasy;
-  padding-right: 400px;
+  font-family: "Apple Chancery";
+  padding-right: 500px;
   padding-left: 20px;
 }
 
@@ -133,20 +176,21 @@ li{
   display:inline;
   font-size: 1rem;
   padding: 1px;
-  border: 5px solid red;
-  background-color: yellow;
-  font-family: Papyrus,fantasy;
-  
+  border: 5px red;
+  border-style: ridge;
+  background-color: white;
+  font-family: "OswaldBook";
+  border-radius: 5px;
 }
 
 .formcontact{
 font-size: 1.5rem;
-font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+font-family: "OswaldBook";
 padding-bottom: 20px;
 padding-top: 20px;
 text-align: center;
 width: 100%;
-background: yellow;
+background:yellow;
 box-sizing: border-box;
 width: 100%;
 display: block;
@@ -155,14 +199,16 @@ a{
   text-decoration-line: none;
 }
 .contactbox{
-  background: blue;
-  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  background: whitesmoke;
+  font-family: "Apple Chancery"; 
   font-size: 1.5rem;
-  color:red;
+  font-weight: 900;
+  color: blue;
   text-align: left;
   margin-left: 120px;
   margin-right: 120px;
   padding-bottom: 20px;
+  border-radius: 25px;
 }
 
 .submitbutton{

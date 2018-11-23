@@ -1,69 +1,72 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
-        <div id=headerbox>
-                <div class="title">
-                <h1 >La Casa de Los Antojitos</h1>  
-                </div>
-                
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link About" href="menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link Portfolio" href="ourstory.html">Our Story</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link location" href="location.html">Location</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link Contact" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <div>
-                    <a href="index.html">
-                        <img src="assets/images/Logo.jpg" alt="logopicture" style="width:50px;height:50px;">
-                    </a>
-                </div>
-            </div>
+    <div id=headerbox>
+        <div class="title">
+            <h1>La Casa de Los Antojitos</h1>
+        </div>
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link About" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link Portfolio" href="ourstory.html">Our Story</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link location" href="location.html">Location</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link Contact" href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <div>
+            <a href="index.html">
+                <img src="assets/images/Logo.jpg" alt="logopicture" style="width:50px;height:50px;">
+            </a>
+        </div>
+    </div>
     <div class="contactbox">
         <div class="cboxheader">
-        <h2>Want to Contact us?<br>
-            Please leave your name, number, and message.
-        </h2>
+            <h2>Want to Contact us?<br>
+                Please leave your name, number, and message.
+            </h2>
         </div>
-    <form action="POST">
-    <div class="formcontact">   
-        <label for="fullname">Full Name:</label><br>
-        <br>
-        <input type="text" id="fullname" name="fullname" placeholder="John Smith"><br>
-    
-    </div> 
-    <div class="formcontact">
-    <label for="Number">Number:</label><br>
-    <br>
-    <input type="text" id="Number" name="Number" placeholder="(123)432-1234"><br>
+        <form action="POST">
+            <div class="formcontact">
+                <label for="fullname">Full Name:</label><br>
+                <br>
+                <input type="text" id="fullname" name="fullname" placeholder="John Smith"><br>
+
+            </div>
+            <div class="formcontact">
+                <label for="Number">Number:</label><br>
+                <br>
+                <input type="text" id="Number" name="Number" placeholder="(123)432-1234"><br>
+            </div>
+            <div class="formcontact">
+                <label for="subject">Message:</label><br>
+                <br>
+                <textarea id="subject" name="subject" placeholder="Hi!...." style="height:100px"></textarea>
+            </div>
+            <div class=submitbutton>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
     </div>
-    <div class="formcontact">
-        <label for="subject">Message:</label><br>
-        <br>
-        <textarea id="subject" name="subject" placeholder="Hi!...." style="height:100px"></textarea>
     </div>
-    <div class=submitbutton>
-    <input type="submit" value="Submit">
     </div>
-    </form>
-    </div>
-</div>
-</div> 
 </body>
+
 </html>
